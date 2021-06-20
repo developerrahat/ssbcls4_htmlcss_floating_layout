@@ -1,0 +1,414 @@
+.c-title{
+    background: aqua;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px red;
+}
+
+/* Header layout */
+
+.header{
+    background: darkturquoise;
+    min-height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    text-align: center;
+    color: deeppink;
+    border: 5px solid darkslategrey;
+}
+
+/* Slider layout */
+
+.slider{
+    background: url(../images/rahat.jpg) no-repeat top center;
+    background-size: cover;
+
+
+
+}
+
+.slider-caption{
+    max-width: 30%;
+    padding: 200px 0;
+    text-align: center;
+    background: rgba(0, 19, 128, .3);
+}
+.slider-caption h1{
+    color: red;
+}
+.slider-caption p{
+    color: white;
+}
+.slider-caption button{
+    padding: 6px 10px;
+    font-size: 15px;
+}
+
+/*About & Blog Section layout  */
+
+.wrapper{
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.about-left{
+    background:blueviolet;
+    min-height: 300px;
+    line-height: 300px;
+    font-size: 25px;
+    width: 70%;
+    float: left;
+    border: 5px solid black;
+    box-sizing: border-box;
+
+}
+
+.blog-right{
+    background: chartreuse;
+    min-height: 300px;
+    line-height: 300px;
+    font-size: 25px;
+    width: 30%;
+    float: right;
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+
+/* Service layout */
+
+.service-item{
+    width: 31.33%;
+    float: left;
+    box-shadow: 1px 1px 30px 4px rgba(0, 19, 128, .3);
+    padding: 50px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+
+
+}
+
+.s-content{}
+.s-content h2{}
+.s-content p{
+    margin-bottom: 40px;
+}
+.s-content a{
+    background: #050d3b;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    transition: .5s;
+}
+.s-content a:hover{
+    background: white;
+    color: black;
+    box-shadow: 1px 6px 10px 6px rgb(0, 2, 22);
+}
+
+.cyan{
+    background: cyan;
+}
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+
+/* 3 column layout */
+
+.box1{
+    min-height: 200px;
+    line-height: 200px;
+    background: royalblue;
+    width: 25%;
+    float: left;
+
+}
+.box2{
+    min-height: 200px;
+    line-height: 200px;
+    background: slategray;
+    width: 50%;
+    float: left;
+}
+.box3{
+    min-height: 200px;
+    line-height: 200px;
+    background: rgb(63, 0, 35);
+    width: 25%;
+    float: left;
+}
+
+/* 4 column portfolio layout */
+
+.portfolio{
+    width: 23%;
+    float: left;
+    box-shadow: 1px 1px 25px -4px rgba(1, 6, 46, 0.4);
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 1%;
+   
+}
+img{
+    max-width: 100%;
+
+}
+.portfolio a{
+    display: block;
+    position: relative;
+   
+}
+
+.portfolio a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(1, 29, 184, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.portfolio a:hover::before{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Footer layout */
+
+.footer{
+    min-height: 60px;
+    line-height: 60px;
+    background:tomato;
+    color: white;
+    text-align: center;
+}
+
+.footer p{
+    padding: 0;
+    margin: 0;
+}
+
+/* Css Home to Floating Practice css Start*/
+
+.f-practice{
+
+    color: magenta;
+    text-align: center;
+    background: black;
+    padding: 15px 0;
+
+}
+
+h3{
+   color: navy;
+}
+
+/* Css Background */
+
+.bgc-image{
+    background-image:url(../images/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    position: relative;
+    z-index: -99;
+}
+.bgc-image::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(1, 3, 17, .4);
+    z-index:-9;
+}
+.content p{
+    color: white;
+    text-align: center;
+    padding:60vh 10vh;
+    line-height: 32px;
+}
+
+/* CSS Border */
+
+.b-box{
+    width: 200px;
+    height: 200px;
+    background: orangered;
+    text-align: center;
+    border-bottom: 4px solid blue;
+    border-top: 4px solid rgb(63, 0, 35);
+    border-left: 4px solid yellowgreen;
+    border-right: 4px solid green;
+}
+
+.b-box2{
+    width: 200px;
+    height: 200px;
+    background: orangered;
+    text-align: center;
+    border: 4px solid black;
+    margin-top: 20px;
+}
+
+.b-box3{
+    width: 200px;
+    height: 200px;
+    background: orangered;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.b-box4{
+    min-height: 40px;
+    background: blue;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Margin Padding */
+
+.h1-margin{
+    background: darkblue;
+    margin-left: 30px;
+}
+
+.h1-padding{
+    background: darkorange;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+/* Css Position */
+
+.div1{
+    width: 200px;
+    height: 200px;
+}
+
+.div2 {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: -170px;
+	left: 50px;
+}
+.div3 {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: -336px;
+	left: 107px;
+}
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+.tomato{
+    background: tomato;
+}
+
+.home{
+    width: 900px;
+    min-height: 500px;
+    border:2px solid red;
+    margin: auto;
+    position: relative;
+}
+
+.div4{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+
+}
+.div5{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+.div6{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* Css Display Property */
+
+
+
+/* Icon */
+
+.social{
+    text-align: center;
+}
+.social li{
+    display: inline-block;
+}
+.social li a{
+    display: block;
+    color: green;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #e1e1ff;
+    font-size: 18px;
+    margin: 0 6px;
+    border-radius: 50%;
+    transition: .5s;
+
+}
+.social li a:hover{
+    background:#000002 ;
+    color: red;
+}
+
+.pilen{
+    width: 20px;
+    height:300px;
+    background:#e40000 ;
+}
+.potaka {
+	position: relative;
+	left: 0px;
+	top: -300px;
+}
+.bg-green{
+    height: 90px;
+    width: 250px;
+    background: green;
+    padding: 20px 0;
+}
+
+.red-circle{
+    height: 90px;
+    width:90px;
+    background: red;
+    border-radius: 50%;
+    margin: auto;
+}
